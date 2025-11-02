@@ -28,15 +28,14 @@ body {
     width: 100%;
     margin: 0 auto;
     overflow-wrap: anywhere;
-    .snapchat { background-color: #bab82d; color: black; }
+    font-family: "tahome", sans-serif;
+
+    .snapchat { background-color: #FFFC00; color: black; }
     .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: white; }
-    .email { background-color: #ff6b6b; color: white; }
-    .discord { background-color: #7289da; color: white; }
+    .discord { background-color: #7289da; color: white; text-decoration: bold;}
     .airbuds { background-color: #8cff04; color: black}
     .duolingo {background-color: #58CC02; color: black}
     a:link, a:visited {
-        font-family: sans-serif, monospace;
-
         padding: 15px 25px;
         text-align: center;
         text-decoration: none;
@@ -48,6 +47,7 @@ body {
         white-space: normal;
         overflow-wrap: anywhere;
         margin:10px;
+        font-weight: bold;
     }
 
 }
